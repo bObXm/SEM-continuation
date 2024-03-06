@@ -1,5 +1,4 @@
 import * as signalR from '@microsoft/signalr';
-import { Message } from 'features/chat/api/dtos/dtos';
 
 const getJwtToken = () => {
   let token = localStorage.getItem('token') || '';
