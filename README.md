@@ -30,3 +30,75 @@ EventPlannerAPI handles the API endpoints and routing.
 BusinessLayer contains the business logic and services.
 DataAccessLayer manages data operations and interactions with the database.
 This layered architecture enhances maintainability, scalability, and testability by clearly separating different aspects of the application.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Important Frontend Dependencies and Their Uses in the Sport Event Manager App
+@chakra-ui/react:
+
+Purpose: Provides a simple, modular, and accessible component library for React applications.
+Use in App: Enhances the user interface with pre-styled components, ensuring a consistent and modern design across the application.
+@cloudinary/react and @cloudinary/url-gen:
+
+Purpose: Facilitate image and video management, including uploading, transforming, and optimizing media assets.
+Use in App: Manages and displays user-uploaded images for event listings and user profiles, ensuring optimized and responsive media content.
+@microsoft/signalr:
+
+Purpose: Provides real-time web functionality using WebSockets and other protocols.
+Use in App: Enables real-time chat functionality, allowing users to communicate instantly within the platform.
+@reduxjs/toolkit:
+
+Purpose: Simplifies Redux state management with a set of tools and best practices.
+Use in App: Manages global state, handling data such as user information, event details, and application settings efficiently.
+@react-google-maps/api:
+
+Purpose: A library for integrating Google Maps into React applications.
+Use in App: Displays event locations on a map, allowing users to see where events are happening and get directions.
+axios:
+
+Purpose: A promise-based HTTP client for making API requests.
+Use in App: Facilitates communication between the frontend and backend, fetching and posting data such as user authentication, event details, and chat messages.
+react-router-dom:
+
+Purpose: Provides declarative routing for React applications.
+Use in App: Manages navigation between different pages, such as event listings, event details, and user profiles.
+react-redux:
+
+Purpose: Connects React components to the Redux store.
+Use in App: Enables React components to access and interact with the global state managed by Redux.
+@emotion/react and @emotion/styled:
+
+Purpose: Provides a flexible and performant CSS-in-JS solution.
+Use in App: Styles components dynamically based on the application's state, ensuring a responsive and themed user interface.
+framer-motion:
+
+Purpose: A library for animations in React applications.
+Use in App: Adds smooth and interactive animations to enhance the user experience.
+typescript:
+
+Purpose: A strongly typed programming language that builds on JavaScript.
+Use in App: Ensures type safety and reduces bugs by providing static type checking during development.
+jwt-decode:
+
+Purpose: A small library for decoding JWT tokens.
+Use in App: Parses JWT tokens to manage user authentication and authorization on the client side.
+react-places-autocomplete:
+
+Purpose: A library for integrating Google Places Autocomplete into React applications.
+Use in App: Allows users to search and select locations when creating or searching for events.
+sass:
+
+Purpose: A CSS preprocessor that allows for variables, nested rules, and more.
+Use in App: Provides advanced styling capabilities, ensuring a more maintainable and scalable stylesheet structure.
+Summary
+These dependencies enhance various aspects of the Sport Event Manager application, from user interface and real-time communication to state management and API interactions. They contribute to building a responsive, user-friendly, and efficient platform for managing sports events and user interactions.
+
+
+
+
+
+
+
