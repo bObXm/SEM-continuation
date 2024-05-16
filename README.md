@@ -98,6 +98,13 @@ These dependencies enhance various aspects of the Sport Event Manager applicatio
 
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+OpenAi:
+Purpose: Provides access to OpenAI's API for using models like GPT-4.0.
+Use in App: Integrates OpenAI's capabilities to create a virtual assistant that helps users with questions about the web app. It enables functionalities such as creating assistants, generating responses, managing chat threads, and handling user queries in real-time.
+
 
 
 
