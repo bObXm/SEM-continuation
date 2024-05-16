@@ -1,3 +1,28 @@
+The Sport Event Manager app aims to connect individuals interested in playing sports with teams needing additional players. Here's a summary of its key features:
+
+Event Posting:
+
+Users can create and post events for various sports like soccer.
+Event details include the location, time, required number of players, and any specific requirements.
+Team Joining:
+
+Individuals can browse and join events that need more players.
+Users can view event details and decide which events to join based on their preferences.
+Communication:
+
+The platform includes a chat feature that allows users to communicate with event organizers and other team members.
+Users can ask questions about the event, discuss strategies, or simply coordinate meeting times and locations.
+Assistant for Questions:
+
+An integrated virtual assistant (powered by OpenAI) helps users navigate the app and answers questions they may have about how to use the platform.
+Users can interact with the assistant to get help with posting events, joining teams, or troubleshooting any issues they encounter.
+This app facilitates community engagement in sports by making it easy to find and join local games, fostering connections among sports enthusiasts.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 Backend Structure of Sport Event Manager
 The backend of the Sport Event Manager application is organized into three distinct layers:
 
